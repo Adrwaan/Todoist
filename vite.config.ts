@@ -8,8 +8,9 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [react()],
-    server: {
-      host: process.env.HOST, // Only in development environment.
-    },
+    base: "/Todoist/",
+    // server: {
+    //   host: process.env.HOST, // Only in development environment.
+    // },
   };
 });
